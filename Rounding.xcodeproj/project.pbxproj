@@ -1,0 +1,331 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8D4976F51761F00A003FBF1B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D4976F41761F00A003FBF1B /* UIKit.framework */; };
+		8D4976F71761F00A003FBF1B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D4976F61761F00A003FBF1B /* Foundation.framework */; };
+		8D4976F91761F00A003FBF1B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D4976F81761F00A003FBF1B /* CoreGraphics.framework */; };
+		8D4976FF1761F00A003FBF1B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8D4976FD1761F00A003FBF1B /* InfoPlist.strings */; };
+		8D4977011761F00A003FBF1B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D4977001761F00A003FBF1B /* main.m */; };
+		8D4977051761F00A003FBF1B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D4977041761F00A003FBF1B /* AppDelegate.m */; };
+		8D4977071761F00A003FBF1B /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D4977061761F00A003FBF1B /* Default.png */; };
+		8D4977091761F00A003FBF1B /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D4977081761F00A003FBF1B /* Default@2x.png */; };
+		8D49770B1761F00A003FBF1B /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D49770A1761F00A003FBF1B /* Default-568h@2x.png */; };
+		8D49770E1761F00A003FBF1B /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D49770C1761F00A003FBF1B /* MainStoryboard.storyboard */; };
+		8D4977111761F00A003FBF1B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D4977101761F00A003FBF1B /* ViewController.m */; };
+		8D49771F1761F54A003FBF1B /* highlight.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D4977171761F54A003FBF1B /* highlight.png */; };
+		8D4977201761F54A003FBF1B /* normal.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D4977181761F54A003FBF1B /* normal.png */; };
+		8D4977211761F54A003FBF1B /* NumericKeypadTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D49771A1761F54A003FBF1B /* NumericKeypadTextField.m */; };
+		8D4977221761F54A003FBF1B /* NumericKeypadView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D49771C1761F54A003FBF1B /* NumericKeypadView.m */; };
+		8D4977231761F54A003FBF1B /* NumericKeypadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D49771E1761F54A003FBF1B /* NumericKeypadViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8D4976F11761F00A003FBF1B /* Rounding.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Rounding.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D4976F41761F00A003FBF1B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		8D4976F61761F00A003FBF1B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8D4976F81761F00A003FBF1B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		8D4976FC1761F00A003FBF1B /* Rounding-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Rounding-Info.plist"; sourceTree = "<group>"; };
+		8D4976FE1761F00A003FBF1B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8D4977001761F00A003FBF1B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8D4977021761F00A003FBF1B /* Rounding-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Rounding-Prefix.pch"; sourceTree = "<group>"; };
+		8D4977031761F00A003FBF1B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8D4977041761F00A003FBF1B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8D4977061761F00A003FBF1B /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		8D4977081761F00A003FBF1B /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		8D49770A1761F00A003FBF1B /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		8D49770D1761F00A003FBF1B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		8D49770F1761F00A003FBF1B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8D4977101761F00A003FBF1B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8D4977171761F54A003FBF1B /* highlight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = highlight.png; sourceTree = "<group>"; };
+		8D4977181761F54A003FBF1B /* normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = normal.png; sourceTree = "<group>"; };
+		8D4977191761F54A003FBF1B /* NumericKeypadTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NumericKeypadTextField.h; sourceTree = "<group>"; };
+		8D49771A1761F54A003FBF1B /* NumericKeypadTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NumericKeypadTextField.m; sourceTree = "<group>"; };
+		8D49771B1761F54A003FBF1B /* NumericKeypadView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NumericKeypadView.h; sourceTree = "<group>"; };
+		8D49771C1761F54A003FBF1B /* NumericKeypadView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NumericKeypadView.m; sourceTree = "<group>"; };
+		8D49771D1761F54A003FBF1B /* NumericKeypadViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NumericKeypadViewController.h; sourceTree = "<group>"; };
+		8D49771E1761F54A003FBF1B /* NumericKeypadViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NumericKeypadViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D4976EE1761F00A003FBF1B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D4976F51761F00A003FBF1B /* UIKit.framework in Frameworks */,
+				8D4976F71761F00A003FBF1B /* Foundation.framework in Frameworks */,
+				8D4976F91761F00A003FBF1B /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8D4976E81761F009003FBF1B = {
+			isa = PBXGroup;
+			children = (
+				8D4976FA1761F00A003FBF1B /* Rounding */,
+				8D4976F31761F00A003FBF1B /* Frameworks */,
+				8D4976F21761F00A003FBF1B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8D4976F21761F00A003FBF1B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D4976F11761F00A003FBF1B /* Rounding.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8D4976F31761F00A003FBF1B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8D4976F41761F00A003FBF1B /* UIKit.framework */,
+				8D4976F61761F00A003FBF1B /* Foundation.framework */,
+				8D4976F81761F00A003FBF1B /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8D4976FA1761F00A003FBF1B /* Rounding */ = {
+			isa = PBXGroup;
+			children = (
+				8D4977031761F00A003FBF1B /* AppDelegate.h */,
+				8D4977041761F00A003FBF1B /* AppDelegate.m */,
+				8D49770C1761F00A003FBF1B /* MainStoryboard.storyboard */,
+				8D4977171761F54A003FBF1B /* highlight.png */,
+				8D4977181761F54A003FBF1B /* normal.png */,
+				8D4977191761F54A003FBF1B /* NumericKeypadTextField.h */,
+				8D49771A1761F54A003FBF1B /* NumericKeypadTextField.m */,
+				8D49771B1761F54A003FBF1B /* NumericKeypadView.h */,
+				8D49771C1761F54A003FBF1B /* NumericKeypadView.m */,
+				8D49771D1761F54A003FBF1B /* NumericKeypadViewController.h */,
+				8D49771E1761F54A003FBF1B /* NumericKeypadViewController.m */,
+				8D49770F1761F00A003FBF1B /* ViewController.h */,
+				8D4977101761F00A003FBF1B /* ViewController.m */,
+				8D4976FB1761F00A003FBF1B /* Supporting Files */,
+			);
+			path = Rounding;
+			sourceTree = "<group>";
+		};
+		8D4976FB1761F00A003FBF1B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8D4976FC1761F00A003FBF1B /* Rounding-Info.plist */,
+				8D4976FD1761F00A003FBF1B /* InfoPlist.strings */,
+				8D4977001761F00A003FBF1B /* main.m */,
+				8D4977021761F00A003FBF1B /* Rounding-Prefix.pch */,
+				8D4977061761F00A003FBF1B /* Default.png */,
+				8D4977081761F00A003FBF1B /* Default@2x.png */,
+				8D49770A1761F00A003FBF1B /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D4976F01761F00A003FBF1B /* Rounding */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8D4977141761F00A003FBF1B /* Build configuration list for PBXNativeTarget "Rounding" */;
+			buildPhases = (
+				8D4976ED1761F00A003FBF1B /* Sources */,
+				8D4976EE1761F00A003FBF1B /* Frameworks */,
+				8D4976EF1761F00A003FBF1B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Rounding;
+			productName = Rounding;
+			productReference = 8D4976F11761F00A003FBF1B /* Rounding.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8D4976E91761F009003FBF1B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "william pugh";
+			};
+			buildConfigurationList = 8D4976EC1761F009003FBF1B /* Build configuration list for PBXProject "Rounding" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 8D4976E81761F009003FBF1B;
+			productRefGroup = 8D4976F21761F00A003FBF1B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D4976F01761F00A003FBF1B /* Rounding */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D4976EF1761F00A003FBF1B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D4976FF1761F00A003FBF1B /* InfoPlist.strings in Resources */,
+				8D4977071761F00A003FBF1B /* Default.png in Resources */,
+				8D4977091761F00A003FBF1B /* Default@2x.png in Resources */,
+				8D49770B1761F00A003FBF1B /* Default-568h@2x.png in Resources */,
+				8D49770E1761F00A003FBF1B /* MainStoryboard.storyboard in Resources */,
+				8D49771F1761F54A003FBF1B /* highlight.png in Resources */,
+				8D4977201761F54A003FBF1B /* normal.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D4976ED1761F00A003FBF1B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D4977011761F00A003FBF1B /* main.m in Sources */,
+				8D4977051761F00A003FBF1B /* AppDelegate.m in Sources */,
+				8D4977111761F00A003FBF1B /* ViewController.m in Sources */,
+				8D4977211761F54A003FBF1B /* NumericKeypadTextField.m in Sources */,
+				8D4977221761F54A003FBF1B /* NumericKeypadView.m in Sources */,
+				8D4977231761F54A003FBF1B /* NumericKeypadViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8D4976FD1761F00A003FBF1B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8D4976FE1761F00A003FBF1B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		8D49770C1761F00A003FBF1B /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8D49770D1761F00A003FBF1B /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8D4977121761F00A003FBF1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8D4977131761F00A003FBF1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8D4977151761F00A003FBF1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Rounding/Rounding-Prefix.pch";
+				INFOPLIST_FILE = "Rounding/Rounding-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		8D4977161761F00A003FBF1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Rounding/Rounding-Prefix.pch";
+				INFOPLIST_FILE = "Rounding/Rounding-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8D4976EC1761F009003FBF1B /* Build configuration list for PBXProject "Rounding" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D4977121761F00A003FBF1B /* Debug */,
+				8D4977131761F00A003FBF1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8D4977141761F00A003FBF1B /* Build configuration list for PBXNativeTarget "Rounding" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D4977151761F00A003FBF1B /* Debug */,
+				8D4977161761F00A003FBF1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8D4976E91761F009003FBF1B /* Project object */;
+}
