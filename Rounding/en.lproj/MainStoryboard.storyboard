@@ -41,7 +41,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Enter value to convert" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Iys-VX-TR4">
-                                <rect key="frame" x="20" y="101" width="166" height="21"/>
+                                <rect key="frame" x="20" y="122" width="166" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -69,7 +69,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" id="4rb-P3-UYv" customClass="NumericKeypadTextField">
-                                <rect key="frame" x="208" y="98" width="97" height="30"/>
+                                <rect key="frame" x="208" y="118" width="97" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" keyboardType="numberPad" returnKeyType="done" enablesReturnKeyAutomatically="YES"/>
@@ -82,7 +82,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Convert CGFloat to int" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="OoY-gf-ibe">
-                                <rect key="frame" x="20" y="37" width="280" height="21"/>
+                                <rect key="frame" x="20" y="47" width="280" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="26"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -311,6 +311,32 @@
     <resources>
         <image name="normal.png" width="183" height="65"/>
     </resources>
+    <classes>
+        <class className="NumericKeypadTextField" superclassName="UITextField">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/NumericKeypadTextField.h"/>
+        </class>
+        <class className="NumericKeypadViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/NumericKeypadViewController.h"/>
+            <relationships>
+                <relationship kind="action" name="keypadButtonTapped:"/>
+                <relationship kind="outlet" name="backButton" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="decimalButton" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="saveButton" candidateClass="UIButton"/>
+            </relationships>
+        </class>
+        <class className="ViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/ViewController.h"/>
+            <relationships>
+                <relationship kind="outlet" name="ceilfResultLabel" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="floorResultLabel" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="nearyintResultLabel" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="numericKeypadTextField" candidateClass="NumericKeypadTextField"/>
+                <relationship kind="outlet" name="rintResultLabel" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="roundfLabel" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="truncResultLabel" candidateClass="UILabel"/>
+            </relationships>
+        </class>
+    </classes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>
