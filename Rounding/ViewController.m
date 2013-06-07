@@ -19,6 +19,10 @@
 {
     [super viewDidLoad];
     self.numericKeypadTextField.delegate = self;
+    self.roundfLabel.hidden = YES;
+    self.floorResultLabel.hidden = YES;
+    self.ceilfResultLabel.hidden = YES;
+    self.nearyintResultLabel.hidden = YES;
     
    /*
     The floor() functions return the largest integral value less than or equal to x.
@@ -49,7 +53,6 @@
     [self.numericKeypadTextField resignFirstResponder];
     
     CGFloat value = (CGFloat)[self.numericKeypadTextField.text floatValue];
-    
     int intValue = floorf(value);
     _floorResultLabel.text = [NSString stringWithFormat:@"%d",intValue];
     
@@ -67,6 +70,13 @@
     
     intValue = trunc(value);
     _truncResultLabel.text = [NSString stringWithFormat:@"%d",intValue];
+    
+    self.roundfLabel.hidden = NO;
+    self.floorResultLabel.hidden = NO;
+    self.ceilfResultLabel.hidden = NO;
+    self.nearyintResultLabel.hidden = NO;
+    
+    
 }
 
 
